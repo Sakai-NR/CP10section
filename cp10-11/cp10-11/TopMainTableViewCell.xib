@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8fM-fZ-XfG" customClass="TopMainTableViewCell" customModule="cp10_11" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8fM-fZ-XfG" id="Fon-GF-BV4">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfO-4d-uFt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="50.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Jfi-YG-h3O"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SfO-4d-uFt" firstAttribute="leading" secondItem="Fon-GF-BV4" secondAttribute="leading" id="5VU-LX-UeP"/>
+                    <constraint firstAttribute="trailing" secondItem="SfO-4d-uFt" secondAttribute="trailing" id="K7k-OO-NrO"/>
+                    <constraint firstItem="SfO-4d-uFt" firstAttribute="top" secondItem="Fon-GF-BV4" secondAttribute="top" id="dOo-Rx-ss4"/>
+                    <constraint firstAttribute="bottom" secondItem="SfO-4d-uFt" secondAttribute="bottom" id="tGU-QB-Vtw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="SfO-4d-uFt" id="xNC-SZ-4ru"/>
+            </connections>
+            <point key="canvasLocation" x="176" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>
