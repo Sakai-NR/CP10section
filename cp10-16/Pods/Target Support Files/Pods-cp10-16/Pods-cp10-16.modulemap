@@ -1,0 +1,6 @@
+framework module Pods_cp10_16 {
+  umbrella header "Pods-cp10-16-umbrella.h"
+
+  export *
+  module * { export * }
+}
